@@ -1,5 +1,8 @@
 html {
     scroll-behavior: smooth;
+    background-image: url(./back6.jpg);
+    background-position: center;
+    background-size: cover;
   }
 *{
     padding: 0%;
@@ -157,7 +160,10 @@ cursor: pointer;
 }
 .container3{
     margin-top: 5em;
-    background-color:rgb(231,231,231);
+    /* background-color:rgb(231,231,231); */
+    /* background-image: url(./back6.jpg);
+    background-position: center;
+    background-size: cover; */
     /* height: 100vh; */
     display: flex;
     flex-direction: column;
@@ -171,6 +177,7 @@ h1{
     color: #f9004d;;
     text-align: center;
     margin-bottom: 0.25em;
+    /* text-decoration: line-through; */
 }
 .pro1{ 
     text-align: center;
