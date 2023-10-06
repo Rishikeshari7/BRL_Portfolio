@@ -75,6 +75,7 @@ a:hover{
     text-decoration: underline;
     font-weight: bold;
 }
+    /* <!----------------------------------------  Home  -----------------------------------------------------------------------!> */
 .container2{
     height: 75vh;
     position: relative;
@@ -160,6 +161,7 @@ cursor: pointer;
     z-index: -1;
     
 }
+/* <!---------------------------------------- Projects -----------------------------------------------------------------------!> */
 .container3{
     margin-top: 5em;
     /* background-color:rgb(231,231,231); */
@@ -219,11 +221,14 @@ margin-left: 7rem;
 #pro1_3{
     margin-right: 4rem;
     }
+
+    /* <!---------------------------------------- About   -----------------------------------------------------------------------!> */
     .container4{
         
         display: flex;
         margin: 10%;
-        height: 100vh;
+        height: 70vh;
+        /* align-items: center; */
         position:relative;
         gap: 8em;
     }
@@ -249,12 +254,136 @@ margin-left: 7rem;
     .con4_2{
         width:50%;
         display: grid;
-grid-template-columns: repeat(4, 1fr);
-grid-template-rows: repeat(4, 1fr);
-grid-column-gap: 15px;
-grid-row-gap: 10px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
         margin-left: 3em;
     }
     .con4_2 img{
         height: 10vh;
+        transition: all .5s;
+        animation: iconanimate 5s linear infinite;
+    }
+    /* .con4_2 img:hover{
+        transform: scale(1.2);
+       
+    } */
+    @keyframes iconanimate {
+        0%{
+            
+            transform: translateY(60px);
+        }
+        50%{
+            transform: translateY(100px);
+            
+        }
+        100%{
+            transform: translateY(60px);
+        }
+    }
+    .con4_img:hover{
+        transform: scale(1.2);
+    }
+    /* <!----------------------------------------Contact Me-----------------------------------------------------------------------!> */
+    .container5{
+        display: flex;
+        justify-content: space-around;
+        /* align-items: center; */
+        /* margin-top: %; */
+        height: 75vh;
+    }
+    .contact1{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+    .contact1 h2{
+        font-size: 4em;
+        color: #3c3468e5;
+    }
+    .contact1 span{
+        font-size: 1.1em;
+    }
+    .contact1 div{
+        font-size: 1.3em;
+    }
+    #contact-icon-box{
+        padding-top: 1em;
+        font-size: 2.5em;
+
+    }
+    #contact-icon-box a{
+        color:#4358696a;
+        margin-left: .4em;
+        transition: all 1s;
+    }
+    #phone:hover{
+       
+    }
+    #contact-icon-box a :hover{
+        color: #4e45d5;
+        transform: scale(1.2);
+    }
+    .contact2{
+        display: flex;
+        flex-direction: column;
+    }
+    #butn{
+        margin-left: 5%;
+    }
+    .download{
+        margin-top: 10%;
+        text-align: center;
+        font-size: 0.8em;
+        padding: 2.5%;
+        border-radius: 15px;
+        background-color:  #4e45d5;
+        color: aliceblue;
+        transition: all;
+        transition-duration: .5s;
+    }
+    .download:hover{
+        transform: scale(1.1);
+    }
+    
+    .contact2{
+        margin-top: 1%;
+        gap: 2em;
+    }
+    .input-name , .input-msg{
+            width: 100%;
+            background-color: #262626e1;
+            color: whitesmoke;
+            border: none;
+            padding:10px ;
+            font-family:  Verdana, sans-serif;
+            border-radius: 7px;
+            font-size: 15px;
+    }
+    #submit{
+        
+        font-size: 1em;
+        padding: 1%;
+        border-radius: 15px;
+        background-color:  #4e45d5;
+        color: aliceblue;
+        transition: all;
+        transition-duration: .5s;
+    }
+    #submit:hover{
+        transform: scale(1.2);
+    }
+    
+    /* ----------------- Footer ------------------------ */
+    footer{
+        text-align: center;
+        color:  #262626;
+        padding-bottom: 1%;
+        padding-top: .5%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .ft-ele{
+        color:  #4e45d5;
+        font-weight: 400;
     }

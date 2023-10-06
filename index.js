@@ -1,4 +1,8 @@
-<script>
+function clicked(){
+    window.open(outube.com/shorts/E0rYbgDkvco);
+};
+// alert("hiii");
+/* <script>
 var typeData = new Typed(".role", {
   strings: [
     "Web Developer",
@@ -11,4 +15,4 @@ var typeData = new Typed(".role", {
   backSpeed: 80,
   backDelay: 1000,
 });
-</script>
+</script> */
