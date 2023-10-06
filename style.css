@@ -251,7 +251,7 @@ margin-left: 7rem;
         
         display: flex;
         margin: 10%;
-        height: 70vh;
+        height: 80vh;
         /* align-items: center; */
         position:relative;
         gap: 8em;
@@ -399,6 +399,10 @@ margin-left: 7rem;
     }
     #submit:hover{
         transform: scale(1.4);
+    }
+    #phone a , #email a{
+        text-decoration: none;
+        color: #262626;
     }
     
     /* ----------------- Footer ------------------------ */
