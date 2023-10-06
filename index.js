@@ -1,5 +1,5 @@
 function clicked(){
-    window.open(outube.com/shorts/E0rYbgDkvco);
+    window.open("http://127.0.0.1:3000/index.html")
 };
 // alert("hiii");
 /* <script>
