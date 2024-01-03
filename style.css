@@ -782,6 +782,10 @@ margin-left: 7rem;
         .con4_1 p{
            margin-top: 1%;
         }
+        .con4_2 img{
+        
+        animation: none;
+    }
     }
     @media (max-width:450px){
         #my_img{
