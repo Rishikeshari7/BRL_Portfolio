@@ -655,7 +655,9 @@ margin-left: 7rem;
             padding-right: 5%;
          }
          .con4_2 img{
+             margin-top:1rem;
             width: 2.8em;
+             animation:none;
          }
          .contact1{
             padding-left: 5%;
@@ -782,6 +784,10 @@ margin-left: 7rem;
         .con4_1 p{
            margin-top: 1%;
         }
+        .con4_2 img{
+        
+        animation: none;
+    }
     }
     @media (max-width:450px){
         #my_img{
